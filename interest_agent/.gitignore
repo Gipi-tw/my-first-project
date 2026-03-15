@@ -1,0 +1,16 @@
+# 環境變數與 API 金鑰（絕對不可 commit）
+.env
+*.json.json
+
+# Google OAuth2 憑證（包含 client_secret）
+credentials.json
+token.json
+
+# Python 快取
+__pycache__/
+*.pyc
+*.pyo
+
+# 產出的報告與預覽（可視需求移除此行）
+digest_preview_*.html
+interest_profile_*.md
